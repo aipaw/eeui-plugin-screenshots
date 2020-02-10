@@ -6,7 +6,7 @@
 @implementation WXScreenshotsModule
 @synthesize weexInstance;
 
-WX_PlUGIN_EXPORT_MODULE(screenshots, WXScreenshotsModule)
+WX_PlUGIN_EXPORT_MODULE(eeuiScreenshots, WXScreenshotsModule)
 WX_EXPORT_METHOD(@selector(shots:callback:))
 
 -(void)shots:(NSString*)ref  callback:(WXModuleCallback)callback{
