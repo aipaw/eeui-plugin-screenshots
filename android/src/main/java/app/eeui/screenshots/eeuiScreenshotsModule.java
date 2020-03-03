@@ -19,7 +19,6 @@ import app.eeui.framework.extend.base.WXModuleBase;
 import app.eeui.screenshots.util.Picture;
 import app.eeui.screenshots.util.SDCard;
 
-@WeexModule(name = "eeuiScreenshots")
 public class eeuiScreenshotsModule extends WXModuleBase {
 
     @JSMethod
